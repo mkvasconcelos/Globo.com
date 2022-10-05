@@ -1,0 +1,206 @@
+a{
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+a:hover{
+    opacity: 1.0;
+}
+
+body{
+    font-family: 'Encode Sans', sans-serif;
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body > div:nth-child(1){
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1250px;
+}
+
+body > div:nth-child(3){
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1250px;
+}
+
+body > img{
+    justify-content: center;
+}
+
+img{
+    border-radius: 12px;
+    width: 193px;
+    height: 110px;
+}
+
+p{
+    font-weight: 700;
+    color: #303134;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 1px;
+}
+
+.cartola{
+    color:#E3662B;
+}
+
+.dropz{
+    color:#FF75BB;
+}
+
+.g1{
+    color:#C4160C;
+}
+
+.ge{
+    color:#16AE54;
+}
+
+.globoplay{
+    color:#FB0735;
+}
+
+.gshow{
+    color:#EC8006;
+}
+
+.icons{
+    font-size: 19px;
+    line-height: 23.75px;
+    margin: 10px 0;
+}
+
+.imgRight{
+    width: 240px;
+    height: 128px;
+}
+
+.lefthr{
+    color: #EBEDEF;
+    margin: 10px 10px;
+}
+
+.leftSide{
+    align-items: center;
+}
+
+.leftSide:not(:nth-child(1)){
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.logo{
+    margin: 22px 0;
+    height: 36px;
+    width: 171px;
+    align-items: center;
+}
+
+.main{
+    width: 1250px;
+    height: fit-content;
+    display: flex;
+    margin-top: 30px;
+}
+
+.main > div:nth-child(3){
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mainTitle{
+    line-height: 67px;
+    font-size: 52px;
+}
+
+.mainSubTitle{
+    line-height: 22.5px;
+}
+
+.news{
+    width: 193px;
+    margin: 10px 0;
+}
+
+.newsRight{
+    width: 240px;
+    margin-bottom: 20px;
+}
+
+.newsTitle{
+    line-height: 17.5px;
+}
+
+.newsSubTitle{
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.newsSubSubTitle{
+    line-height: 19px;
+    font-weight: 400;
+}
+
+.oglobo{
+    color:#1E4B9B;
+}
+
+.quem{
+    color:#323333;
+}
+
+.receitas{
+    color:#A81D83;
+}
+
+.righthr{
+    background-color: #EBEDEF;
+    margin: 20px;
+}
+
+.rightSide{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.rightSide > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+}
+
+.rightSide > div > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitle{
+    font-size: 18px;
+}
+
+.title{
+    font-weight: 700;
+} 
+
+.tophr{
+    color: #F5F6F7;
+    width: 100%;
+    margin: 0;
+}
+
+.valor{
+    color:#006766;
+}
+
+
